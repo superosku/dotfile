@@ -8,3 +8,6 @@ export LSCOLORS=ExFxBxDxCxegedabagacad
 
 source ~/.bashrc
 
+# Rust sdl 2 tutorial asked me to add this here (note added by oskari 6.2.2019)
+export LIBRARY_PATH="$LIBRARY_PATH:/usr/local/lib"
+
