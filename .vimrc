@@ -61,9 +61,10 @@ set ruler
 
 " Identification and tabs, python style
 set smartindent
-set tabstop=4
-set shiftwidth=4
+set tabstop=2
+set shiftwidth=2
 set expandtab
+set smarttab
 
 " ***************
 " * Down from here is wundle plugin config stuff
@@ -88,6 +89,13 @@ Plugin '907th/vim-auto-save'
 Plugin 'vim-airline/vim-airline'
 
 Plugin 'Valloric/YouCompleteMe'
+
+" Typescript stuff
+Plugin 'leafgarland/typescript-vim'
+Plugin 'peitalin/vim-jsx-typescript'
+
+" Terraform styles
+Plugin 'hashivim/vim-terraform'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required

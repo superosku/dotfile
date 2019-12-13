@@ -134,3 +134,8 @@ export LIBRARY_PATH="$LIBRARY_PATH:/usr/local/lib"
 
 
 export PATH="$HOME/.cargo/bin:$PATH"
+
+# Git stuff
+alias gitb='git branch --sort=committerdate'
+alias gitl="git log --graph --pretty=format:'%C(yellow)%h%Creset -%C(cyan)%d%Creset %s %C(#FF5588)(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+
